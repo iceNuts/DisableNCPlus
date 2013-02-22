@@ -7,8 +7,13 @@ entry = {
   ALSettingsPath = "/var/mobile/Library/Preferences/ic.nuts.disablenc.plist";
   ALSettingsKeyPrefix = "";
   ALChangeNotification = "ic.disablenc.settingschanged";
-  ALAllowsSelection = 1;
+  ALAllowsSelection = 2;
   ALSectionDescriptors = (
+	{
+		 items = (
+		);
+		"footer-title" = "Thanks for your purchasing! Please note when using this tweak, you should be very careful with the SYSTEM applications, and to solve some unexpected issue, you can press home button&reopen your app. Someone who want to disable NC globally could turn on all toggles.";
+	},
   	{
   	  title = "System Applications";
   	  predicate = "(isSystemApplication = TRUE)";

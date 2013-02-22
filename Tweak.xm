@@ -27,7 +27,7 @@ static NSString* CurrentApp = @"/var/mobile/Library/Preferences/ic.nuts.currapp.
 
 //Get Current App's Bundle Identifier
 %hook UIApplication
-//Hook more functions to ensure no leaks
+//Hook function to ensure no leaks
 - (void)_run{
 	[self currentIdentifierParser];
 	%orig;

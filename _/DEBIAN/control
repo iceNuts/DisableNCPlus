@@ -1,10 +1,10 @@
 Package: com.icenuts.disablenc+
 Name: DisableNC+
 Depends: mobilesubstrate, applist | firmware (>= 6.0)
-Version: 0.1.1-41
+Version: 0.1.1-86
 Architecture: iphoneos-arm
 Description: An awesome MobileSubstrate tweak!
 Maintainer: icenuts
 Author: icenuts
 Section: Tweaks
-Installed-Size: 20
+Installed-Size: 24
